@@ -1,0 +1,84 @@
+# My Azure AI & ML Architect Learning Journey
+
+
+
+### 👋 About This Repository
+
+Welcome! I am a professional Cloud Solution Architect (Azure) currently expanding my expertise into Artificial Intelligence and Machine Learning. This repository documents my learning journey, tracks my progress, and serves as a portfolio of my skills and projects.
+
+My goal is to bridge the gap between cloud infrastructure and intelligent applications, mastering the skills required to design, build, and govern enterprise-grade AI solutions on Azure.
+
+**Current Focus:** [ ] Phase 1: Mastering Applied AI Services & Azure OpenAI
+
+---
+
+## 🚀 The Evolvement Plan
+
+This plan is structured in four phases, taking me from my foundation as a Cloud Architect to a specialized AI Architect.
+
+### Phase 1: Master "Applied AI" (The Architect's Quickest Win)
+
+* **Folder:** `[01-Applied-AI-Services](./01-Applied-AI-Services/)`
+* **Goal:** Master the integration of pre-built AI models to solve business problems.
+* **Key Learnings & Progress:**
+    * [ ] **Azure OpenAI:** Deploy and manage models, security, and cost.
+    * [ ] **Azure AI Search:** Index data for AI.
+    * [ ] **The RAG Pattern:** Master Retrieval-Augmented Generation.
+    * [ ] **Other AI Services:** Understand Vision, Speech, and Language.
+* **Target Certification:**
+    * [ ] **AI-102: Azure AI Solution**
+* **Featured Project:**
+    * [ ] **[RAG Pattern Demo](./01-Applied-AI-Services/projects/RAG-Pattern-Demo/):** A "chat with your data" app using Azure OpenAI and AI Search, deployed securely with Bicep/Terraform.
+
+---
+
+### Phase 2: Build the Data Foundation (The "Data Engineering" Crossover)
+
+* **Folder:** `[02-Data-Foundation](./02-Data-Foundation/)`
+* **Goal:** Understand how to architect the data platforms that feed ML models.
+* **Key Learnings & Progress:**
+    * [ ] **Azure Data Lake Storage (ADLS) Gen2:** Architecting for analytics.
+    * [ ] **Azure Data Factory (ADF):** Building ingestion and transformation pipelines.
+    * [ ] **Azure Databricks:** Understanding its role in data science and its secure deployment (VNET Injection).
+* **Target Certification:**
+    * [ ] **DP-900: Azure Data Fundamentals**
+
+---
+
+### Phase 3: Dive into Custom ML & MLOps (The "Data Science" Crossover)
+
+* **Folder:** `[03-MLOps](./03-MLOps/)`
+* **Goal:** Learn the lifecycle of custom models and how to build the platform for MLOps.
+* **Key Learnings & Progress:**
+    * [ ] **Azure Machine Learning (AML) Studio:** The end-to-end platform.
+    * [ ] **MLOps Lifecycle:** Understand training, registering, and deploying models.
+    * [ ] **AML Endpoints:** Deploying models as secure, scalable REST APIs.
+    * [ ] **AML Pipelines:** Automating the ML lifecycle.
+* **Target Certification:**
+    * [ ] **DP-100: Data Science Solution on Azure**
+
+---
+
+### Phase 4: Capstone Project & Strategy
+
+* **Folder:** `[04-Capstone-Project](./04-Capstone-Project/)`
+* **Goal:** Combine all skills into a single, enterprise-grade project.
+* **Key Learnings & Progress:**
+    * [ ] **WAF for ML:** Applying the Well-Architected Framework for ML.
+    * [ ] **Python:** Gaining proficiency in Pandas and Scikit-learn.
+* **Project Details:**
+    * [ ] **[Enterprise RAG Solution](./04-Capstone-Project/):** An end-to-end "Chat with your Docs" solution.
+        * **Features:** Secure (Private Endpoints), Automated (ADF + AML Pipelines), and Scalable (AML Endpoints).
+        * **[View Project README](./04-Capstone-Project/README.md)**
+
+---
+
+### Portfolio: Featured Projects
+
+* **[Project 1: RAG Pattern Demo](./01-Applied-AI-Services/projects/RAG-Pattern-Demo/)**
+    * **Description:** A "chat with your data" app using Azure OpenAI and AI Search.
+    * **Skills:** `Azure OpenAI`, `Azure AI Search`, `Bicep`, `Private Endpoints`.
+
+* **[Project 2: ...](./...)**
+    * **Description:** ...
+    * **Skills:** `...`
